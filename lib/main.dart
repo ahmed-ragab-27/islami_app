@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:islami_app/ui/screens/splash/splash.dart';
 
 void main() {
   runApp(MyApp());
@@ -12,8 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Islami App',
-
-
+      home: SplashScreen(),
     );
   }
 }
