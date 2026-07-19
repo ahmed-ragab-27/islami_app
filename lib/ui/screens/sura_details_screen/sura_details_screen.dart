@@ -82,7 +82,7 @@ class _SuraDetailsScreenState extends State<SuraDetailsScreen> {
     suraContent = await rootBundle.loadString(fileName);
     List<String> lines = suraContent.split('\n');
     for (int i = 0; i < lines.length; i++) {
-      lines[i] += "(${i + 1}) ";
+      lines[i] += "[${i + 1}] ";
     }
     suraContent = lines.join();
     setState(() {});
